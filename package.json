@@ -1,0 +1,37 @@
+{
+  "name": "@aiofc/frontend-250101",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "Abel Tan",
+  "packageManager": "pnpm@9.15.0",
+  "volta": {
+    "node": "22.12.0",
+    "pnpm": "9.15.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/config-nx-scopes": "^19.5.0",
+    "commitizen": "^4.3.1",
+    "cz-customizable": "^7.4.0",
+    "husky": "^8.0.0",
+    "prettier": "^3.2.5",
+    "turbo": "^2.3.3",
+    "typescript": "5.5.4"
+  }
+}
